@@ -57,18 +57,6 @@ body{
 }
 
 
-
-
-
-
-
-.bg-img{
-
-    width: 400px;
-}
-
-
-
 .title-2{
 
     display: flex;
@@ -106,6 +94,8 @@ body{
     
 }
 
+
+
 .buttons-container{
     border: 1px solid transparent;
     border-radius: .25rem;
@@ -121,12 +111,33 @@ body{
     
 }
 
+
+
+
+
+.buttons-container a{
+    text-decoration: none;
+}
+
+
+
 .buttons-a
 {
     background-color: #19cb98;
     border-color: #19cb98;
     color: #fff;
     padding: 10px;
+    border-radius: 10px;
+}
+
+
+.buttons-a-first
+{
+    background-color: red;
+    border-color: #19cb98;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 
@@ -135,16 +146,6 @@ body{
     width: 150px;
     
 }
-
-.
-
-
-
-
-
-
-
-
 
 
 .title h1{
@@ -161,11 +162,6 @@ body{
     
     justify-content: center;
 }
-
-
-
-
-
 
 
 .main-container{
@@ -203,8 +199,6 @@ body{
 
 
     
-
-
 .heading h3{
    
     text-align: center;
@@ -227,20 +221,32 @@ body{
 
 .items{
     justify-content: center;
-    
     margin: 5px;
-    
 }
 
 .button{
     display: flex;
+    margin-top: 30px;
     justify-content: center;
-    
     border-top: 1px solid #ecebf1;
-
 }
 
 
-button{
-    margin: 20px;
+.button button{
+    
+    background-color: white;
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #754ffe;
+    font-size: 16px;
+    margin: 16px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button button:hover{
+    background-color: #754ffe;
+    color: white;
 }
