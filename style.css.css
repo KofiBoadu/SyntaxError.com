@@ -113,8 +113,6 @@ body{
 
 
 
-
-
 .buttons-container a{
     text-decoration: none;
 }
@@ -203,7 +201,9 @@ body{
    
     text-align: center;
     background-color: aliceblue;
-    margin: 0;
+    margin-top: 0;
+    padding: 10px;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .image-container{
@@ -212,6 +212,8 @@ body{
     
     
 }
+
+
 
 .image-container img{
     height: 200px;
@@ -222,7 +224,33 @@ body{
 .items{
     justify-content: center;
     margin: 5px;
+   
+    
+    
 }
+
+.items ul{
+    list-style-type: square;
+    margin-top: 20px;
+   
+    
+}
+
+.items li {
+    display: inline;
+    padding: 1px;
+    font-size: 12px;
+    text-align: center;
+    margin: 10px;
+
+}
+
+
+
+
+
+
+
 
 .button{
     display: flex;
