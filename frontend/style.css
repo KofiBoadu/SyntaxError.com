@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0;
+    padding: 0;
+    color: tomato;
+    box-shadow: inset 0 -3em 3em rgba(255, 255, 255, 0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+
+.watch-vid{
+   
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+   
+}
+
+.text-vid{
+
+    display: inline-block;
+    text-align: center;
+   
+}
+
+
+.video{
+    display: flex;
+   
+    margin: 10px;
+    padding-top: 0;
+    width: 100%px;
+    flex-direction: column;
+    box-shadow: inset 0 -3em 3em rgba(255, 255, 255, 0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
