@@ -10,18 +10,19 @@
         0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 
-@media (min-width=500px)
-{
-    .frame{
+
+    .frame-1{
         width: 350px;
         height: 250px;
+        padding-bottom: 0px;
     }
-}
+
 
 .text-vid{
     display: inline-block;
     text-align: center;
     font-weight: 500px;
+    
 }
 
 
@@ -33,17 +34,25 @@
     box-shadow: inset 0 -3em 3em rgba(255, 255, 255, 0.1),
         0 0  0 2px rgb(255,255,255),
         0.3em 0.3em 1em rgba(0,0,0,0.3);
+    
 }
 
 .project-videos{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    background-color: rgb(255, 254, 254);
+   
     
 } 
 
+.watch-vid{
+    margin: 20px;
+    padding-bottom: 0px;
+}
+
 .project-title{
-    margin-top: 50px;
+    margin-top: 150px;
     display: inline-block;
 }
 .project-title h1{
