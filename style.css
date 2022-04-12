@@ -64,6 +64,10 @@
         
     }
 
+.bg-img img{
+    width: 200px;
+}
+
 
 
 
@@ -81,6 +85,12 @@
     
 
 }
+
+.bg-backend img{
+   width: 300px;
+}
+
+
 .bg-txt-2{
     
   
@@ -155,11 +165,7 @@
 }
 
 
-.bg-img-2{
 
-    width: 150px;
-    
-}
 
 
 .title h1{
