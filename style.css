@@ -1,11 +1,16 @@
-body{
-    background-color: #f5f4f8;
-    font-family: "Source Sans Pro",sans-serif;
+
+@media (min-width:300px)
+{
+    body{
+        background-color: #f5f4f8;
+        font-family: "Source Sans Pro",sans-serif;
+    }
 }
 
-@media (min-width:200px)
 
-{
+
+
+
     .menu-bar{
     
         padding: 0;
@@ -28,7 +33,7 @@ body{
 }
   
 
-}
+
 
 .title{
 
@@ -42,19 +47,25 @@ body{
     
 
 }
-.bg-txt{
+
+
+
+    .bg-txt{
     
   
-    width: 500px;
-    padding: 20px;
-    margin-top: 20px;
-    color: white;
-    font-size: 60px;
-    text-align: center;
-    font-family: 'Libre Baskerville', serif;
-    
-    
-}
+        width: 500px;
+        padding: 20px;
+        margin-top: 20px;
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Libre Baskerville', serif;
+        
+        
+    }
+
+
+
 
 
 .title-2{
@@ -73,11 +84,11 @@ body{
 .bg-txt-2{
     
   
-    width: 500px;
+    width: 400px;
     padding: 20px;
     margin-top: 20px;
     color: white;
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
     font-family: 'Libre Baskerville', serif;
     
@@ -87,10 +98,9 @@ body{
 .buttons{
 
     display: flex;
-  
     font-size:10px;
     margin-top: 50px;
-    justify-content: space-around;
+    justify-content: center;
     
 }
 .buttons-link{
@@ -106,11 +116,12 @@ body{
     color: #5c5776;
     cursor: pointer;
     display: inline-block;
-    font-size: .875rem;
-    font-weight: 600;
+    font-size: .7rem;
+    font-weight: 100;
     line-height: 1.6;
     padding: .75rem 1.25rem;
     text-align: center;
+    
     
     
 }
@@ -119,6 +130,7 @@ body{
 
 .buttons-container a{
     text-decoration: none;
+    
 }
 
 
