@@ -11,11 +11,6 @@
 }
 
 
-    .frame-1{
-        width: 350px;
-        height: 250px;
-        padding-bottom: 0px;
-    }
 
 
 .text-vid{
@@ -42,13 +37,13 @@
     flex-wrap: wrap;
     justify-content: center;
     background-color: rgb(255, 254, 254);
+    border-style: solid;
    
     
 } 
 
 .watch-vid{
-    margin: 20px;
-    padding-bottom: 0px;
+  margin: 20px;
 }
 
 .project-title{
