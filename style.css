@@ -243,20 +243,14 @@
     width: 280px;
 }
 
-.items{
+.items ul{
     justify-content: center;
     margin: 5px;
-   
+    margin-top: 20px;
     
     
 }
 
-.items ul{
-    list-style-type: square;
-    margin-top: 20px;
-   
-    
-}
 
 .items li {
     display: inline;
@@ -268,10 +262,18 @@
 }
 
 
+.items-framework ul  {
+  list-style: none;
+  text-align: center;
+ 
+}
 
-
-
-
+.items-framework li{
+    font-size: 12px;
+    display: inline;
+    padding: 1px;
+    margin: 10px;
+}
 
 
 .button{
