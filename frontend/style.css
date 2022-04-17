@@ -60,9 +60,48 @@
 }
 
 .projects-cards{
-    background-color: red;
+    background-color: rgb(70, 63, 63);
     margin: 20px;
-    padding: 80px;
+    padding: 50px;
+    margin-top: 0px;
+    padding-top: 10px;
+    border: 1px solid #ecebf1;
+    margin-top: 0;
+    border-radius: .5rem;
+    margin: 20px;
+    box-shadow: 0 1px 3px rgb(3 0 71 / 9%);
+    width: 250px;
+       
+    
+
+}
+
+.projects-cards h3{
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+    border-bottom:solid;
+    
+    
+    
+}
+
+.projects-cards ul{
+   text-align: center;
+  
+}
+.projects-cards a{
+    font-weight: bold;
+    color: red;
+}
+.projects-cards li {
+    padding: 1px;
+    font-size: 20px;
+    margin: 10px;
+    list-style: none;
+   
+    
+    
 }
 
 
