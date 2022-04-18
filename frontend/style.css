@@ -60,7 +60,7 @@
 }
 
 .projects-cards{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     margin: 20px;
     padding: 50px;
     margin-top: 0px;
@@ -71,9 +71,7 @@
     margin: 20px;
     box-shadow: 0 1px 3px rgb(3 0 71 / 9%);
     width: 150px;
-       
-    
-
+         
 }
 
 .projects-cards h3{
