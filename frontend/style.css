@@ -60,7 +60,7 @@
 }
 
 .projects-cards{
-    background-color: rgb(70, 63, 63);
+    background-color: white;
     margin: 20px;
     padding: 50px;
     margin-top: 0px;
@@ -70,7 +70,7 @@
     border-radius: .5rem;
     margin: 20px;
     box-shadow: 0 1px 3px rgb(3 0 71 / 9%);
-    width: 250px;
+    width: 150px;
        
     
 
@@ -78,30 +78,40 @@
 
 .projects-cards h3{
     text-align: center;
-    margin-top: 0px;
-    color: white;
-    border-bottom:solid;
-    
-    
-    
+    margin-top: 10px;
+    color: black;      
 }
 
-.projects-cards ul{
-   text-align: center;
-  
-}
+
 .projects-cards a{
+    text-decoration: none;
+    font-size: 10px;
     font-weight: bold;
-    color: red;
+
 }
-.projects-cards li {
-    padding: 1px;
-    font-size: 20px;
-    margin: 10px;
-    list-style: none;
-   
-    
-    
+
+.projects-cards button {
+    display: flex;
+    background-color: white;
+    color: black;
+    padding: 10px 32px;
+    border: 1px solid #754ffe;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 50px;
+    justify-content: center;
+
+}
+
+.projects-cards p{
+   text-align: center;
+
+}
+
+.projects-cards button:hover{
+    background-color: tomato;
+    color: white;
 }
 
 
