@@ -2,7 +2,7 @@
 @media (min-width:300px)
 {
     body{
-        background-color: #f5f4f8;
+        background-color: #ffffff;
         font-family: "Source Sans Pro",sans-serif;
     }
 }
@@ -34,7 +34,6 @@
   
 
 
-
 .title{
 
     display: flex;
@@ -43,8 +42,9 @@
     box-shadow: 0 1px 3px rgb(3 0 71 / 9%);
     background-color: white;
     justify-content: center;
-    background-color: #754ffe;
-    
+    background-image: url(./images/artwork.jpg);
+    background-size: contain;
+    height: 500px;
 
 }
 
@@ -53,9 +53,9 @@
     .bg-txt{
     
   
-        width: 500px;
+       
         padding: 20px;
-        margin-top: 20px;
+       margin: 25%;
         color: white;
         font-size: 40px;
         text-align: center;
@@ -80,11 +80,12 @@
     box-shadow: 0 1px 3px rgb(3 0 71 / 9%);
     background-color: white;
     justify-content: space-around;
-    background-color: #0d6efd;;
     margin-top: 70px;
     
 
 }
+
+
 
 .bg-backend img{
    width: 300px;
